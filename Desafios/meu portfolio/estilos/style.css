@@ -35,7 +35,7 @@ nav > a {
 
 }
 
-a:hover {
+ nav#menu>a:hover {
     color: white;
     background-color: rgba(13, 58, 58, 0.473);
     border-radius: 20px;
@@ -44,8 +44,8 @@ a:hover {
 main section {
    
     margin-top: 50px;
-    font-size: 2.5vw;
-    margin-left: 1.5em;
+    font-size: 3vw;
+    margin-left: 0.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
@@ -62,7 +62,7 @@ div {
     margin: 5px;
     
 }
-div > a.sobre { 
+div.sobre>a { 
     text-decoration: none;
     font-size: 15px;
     color: white;
@@ -73,14 +73,21 @@ div > a.sobre {
     border-radius: 3px;
     margin-left: 5px;
 }
- div > a.sobre {
-    width: 
-    padding: 6px;
+div.sobre>a {
+    
+    padding: 8px;
+    padding-right: 3px;
 }
 
-div > a:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgba(224, 160, 23, 0.521);
-    transition: .5s;
 
+div.sobre>a:hover {
+    background-color: rgba(10, 151, 144, 0.466);
+    transition: .5s;
+}
+
+img.redes {
+    margin-top: -40px;
+   padding: 10px;
+    width: 30px;
+    border-radius: 50%;
 }
