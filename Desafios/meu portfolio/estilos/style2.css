@@ -1,0 +1,90 @@
+@charset "UT-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white
+   
+}
+
+header {
+    color: white;
+    background-color: rgb(2, 44, 42);
+    text-align: center;
+    padding: 40px;
+    font-size: 13px;
+}
+
+header > p {
+    padding-top: 10px;
+}
+
+section{
+    line-height: 2em;
+    padding: 60px;  
+     
+}
+
+section h1 {
+    padding: 5px;
+    color: white;
+    background-color: rgba(1, 41, 48, 0.651);
+    text-align: center;
+}
+
+section.imagem > p {
+    text-align: justify;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 20px;
+}
+
+section.normal > p{
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+section.imagem {
+    background-color: white;
+    box-shadow: inset 2px 2px 5px black;
+}
+
+section#img1{
+    background-image: url(../img/IMG_3561.JPG);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section#img2{
+    background-image: url(../img/IMG_3559.WEBP);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section#img3{
+    background-image: url(../img/IMG_3562.WEBP);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer a {
+    padding: 50px;
+    text-decoration: none;
+    
+}
+
+strong {
+    margin: 30px;
+    color: red;
+}
+
